@@ -1,0 +1,24 @@
+# Environment secrets
+.env
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Streamlit/cache
+.streamlit/secrets.toml
+
+# Generated project outputs
+reports/*.md
+
+#Generated project docs
+docs/*.md
